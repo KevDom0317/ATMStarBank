@@ -6,7 +6,7 @@ namespace ATMStarBank;
 public class Conexion
 {
     // CAMBIA EL NOMBRE DE TU SERVIDOR PLSSS
-    private string Stringconexion="Server=KEVDOMINICK;Database=BANCODESANGRE;Integrated Security=True;TrustServerCertificate=True;";
+    private string Stringconexion="Server=KEVDOMINICK;Database=ATMStarBank;Integrated Security=True;TrustServerCertificate=True;";
     public SqlConnection conexion;
     public Conexion()
     {
